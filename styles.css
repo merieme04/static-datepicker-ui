@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .date-picker {
+    position: relative;
+    width: 250px;
+  }
+  
+  .input-container {
+    display: flex;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  
+  .date-input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .calendar-button {
+    background-color: white;
+  color: white;
+  border: none;
+  border-left: 1px solid #ccc; 
+  padding: 0 10px;
+  cursor: pointer;
+  }
+  
+  .calendar {
+    padding-top: 8px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-header {
+    padding-right: 4px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .month {
+    font-weight: bold;
+  }
+  
+  .calendar-body {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+  }
+
+  .calendar-row {
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  
+  .calendar-row span {
+    border: 1px solid #ccc;
+    padding: 5px;
+  flex: 1; 
+  text-align: center;
+  }
+  
+  .calendar-row span:hover {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+
+.calendar-days span {
+    border: none;
+    cursor: default;
+  }
+  
+  .calendar-days span:hover {
+    background-color: transparent; 
+    color: inherit; 
+  }
+  
