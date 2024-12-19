@@ -11,6 +11,9 @@ Ce projet consiste à créer une interface utilisateur statique pour un sélecte
 ## Prérequis
 - Un navigateur web moderne pour afficher le fichier `index.html`.
 
+## project URL 
+- https://github.com/merieme04/static-datepicker-ui
+
 ## Installation et utilisation
 1. Clonez ce dépôt dans votre environnement local :
    ```bash
